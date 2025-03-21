@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
-import image1 from "../../../assets/images/services/service2/Service2c.png";
-import image2 from "../../../assets/images/services/service2/Service2d.png";
+import image1 from "../../../assets/images/services/service2/service2c.png";
+import image2 from "../../../assets/images/services/service2/service2d.png";
 
 const ClientTypes = () => {
   const clientTypes = [
