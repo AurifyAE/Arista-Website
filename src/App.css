@@ -1,0 +1,165 @@
+.products-hover:hover {
+    background: linear-gradient(to bottom, #000000, #000000);
+}
+
+.products-hover {
+    background: linear-gradient(to bottom, #000000, #BA8A54);
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-left {
+    animation: slideLeft 1s ease-out forwards;
+}
+
+.animate-right {
+    animation: slideRight 1s ease-out forwards;
+}
+
+.animate-top {
+    animation: slideTop 1s ease-out forwards;
+}
+
+.animate-bottom {
+    animation: slideBottom 1s ease-out forwards;
+}
+
+/* Animation for larger screens (>=768px) */
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Apply these classes to elements based on the index */
+.animate-from-left {
+    animation: slideFromLeft 1s ease-out forwards;
+}
+
+.animate-from-right {
+    animation: slideFromRight 1s ease-out forwards;
+}
+
+.animate-to-left {
+    animation: slideToLeft 1s ease-out forwards;
+}
+
+.animate-to-right {
+    animation: slideToRight 1s ease-out forwards;
+}
+
+/* Animation for smaller screens (<=768px) */
+@keyframes slideFromLeftSmall {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRightSmall {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply smaller animations for small screens */
+.animate-from-left-small {
+    animation: slideFromLeftSmall 1s ease-out forwards;
+}
+
+.animate-from-right-small {
+    animation: slideFromRightSmall 1s ease-out forwards;
+}
