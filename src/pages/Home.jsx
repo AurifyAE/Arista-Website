@@ -14,7 +14,7 @@ import {
 } from "../api/api";
 import io from "socket.io-client";
 import { useSpotRate } from "../context/SpotRateContext";
-import '../app.css';
+import '../App.css';
 
 // Import Glider.js styles
 import "glider-js/glider.min.css";
