@@ -172,7 +172,7 @@ const Home = () => {
     <div className="flex flex-col justify-center items-center min-h-screen py-20">
       <div className="flex flex-col px-36 max-sm:px-8">
         <h1 className="font-poppins font-bold text-[40px] text-center mb-4 mt-5">
-          Welcome to Arista Gold
+          Welcome to Arista
         </h1>
         <p className="font-poppins font-bold text-[18px] text-center text-[#B39844] mb-8">
           Legacy | Trust | Sustainability | Competitiveness
@@ -201,7 +201,7 @@ const Home = () => {
       {/* About Us */}
       <div className="flex flex-col justify-center items-center mt-5 px-36 max-sm:px-8">
         <p className="text-center px-32 max-sm:px-4 text-base max-sm:text-sm">
-          Located in Dubai’s renowned Gold Souk, Arista Gold stands as a beacon of trust, transparency, and excellence in the precious metals trading industry. With a history rooted in Indian heritage, particularly Tamil Nadu, and a vast clientele that spans South Asian expatriates, global businesses, and large corporate buyers, Arista Gold has earned its place as a leader in the market.
+          Located in Dubai's renowned Gold Souk, Arista stands as a beacon of trust, transparency, and excellence in the precious metals trading industry. With a history rooted in Indian heritage, particularly Tamil Nadu, and a vast clientele that spans South Asian expatriates, global businesses, and large corporate buyers, Arista has earned its place as a leader in the market.
         </p>
         <button
           onClick={handleLearnMoreClick}
@@ -265,7 +265,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="font-poppins font-normal text-[14px] sm:text-[16px] lg:text-[16px] leading-[100%]">
-                Arista Gold follows stringent AML (Anti-Money Laundering) practices and global compliance frameworks to ensure secure and ethical operations. We prioritize adherence to UAE laws, including goAML portal reporting and risk assessments, providing peace of mind to our clients and partners.
+                Arista follows stringent AML (Anti-Money Laundering) practices and global compliance frameworks to ensure secure and ethical operations. We prioritize adherence to UAE laws, including goAML portal reporting and risk assessments, providing peace of mind to our clients and partners.
               </div>
             </div>
           </div>
@@ -286,7 +286,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="font-poppins font-normal text-[14px] sm:text-[16px] lg:text-[16px] leading-[100%]">
-                We care about the planet and future generations. Arista Gold aligns its operations with UAE government laws and guidelines for sustainable practices, ensuring responsible sourcing, trading, and operational transparency.
+                We care about the planet and future generations. Arista aligns its operations with UAE government laws and guidelines for sustainable practices, ensuring responsible sourcing, trading, and operational transparency.
               </div>
             </div>
 
@@ -302,7 +302,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="font-poppins font-normal text-[14px] sm:text-[16px] lg:text-[16px] leading-[100%]">
-                We care about the planet and future generations. Arista Gold aligns its operations with UAE government laws and guidelines for sustainable practices, ensuring responsible sourcing, trading, and operational transparency.
+                We care about the planet and future generations. Arista aligns its operations with UAE government laws and guidelines for sustainable practices, ensuring responsible sourcing, trading, and operational transparency.
               </div>
             </div>
           </div>
@@ -321,7 +321,7 @@ const Home = () => {
             The Arista Experience
           </h1>
           <p className="font-poppins font-normal text-sm sm:text-base lg:text-lg xl:text-lg leading-relaxed mt-4 mb-4 sm:mt-6 sm:mb-6 text-center lg:text-left">
-            By choosing Arista Gold, clients gain access to a world of possibilities in the precious metals industry, with services designed
+            By choosing Arista, clients gain access to a world of possibilities in the precious metals industry, with services designed
             to maximize value, ensure security, and build lasting relationships.
           </p>
           <span className="font-poppins font-bold text-xs sm:text-sm lg:text-base xl:text-lg leading-normal text-center lg:text-left">

@@ -5,7 +5,7 @@ import B2C from "../../../assets/images/services/service1/B2C-2.png";
 const ServiceAvailability = () => {
   // Eligibility points
   const platform = [
-    "Register with Arista Gold’s trading platform by submitting your KYC and financial details.",
+    "Register with Arista's trading platform by submitting your KYC and financial details.",
     "Receive login credentials and training on platform usage.",
   ];
 

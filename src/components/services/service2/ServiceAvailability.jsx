@@ -10,7 +10,7 @@ const ServiceAvailability = () => {
   ];
 
   const process = [
-    "Contact Arista Gold’s consignment desk to discuss terms.",
+    "Contact Arista's consignment desk to discuss terms.",
     "Sign a consignment agreement detailing delivery timelines, pricing terms, and payment schedules.",
     "Receive the consigned metals and start using them for your business needs.",
     "Fix the price at an agreed date and complete the payment process.",

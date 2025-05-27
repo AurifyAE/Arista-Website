@@ -19,7 +19,7 @@ const Service1 = () => (
                     className="w-full h-[282px] rounded-[47px] object-cover"
                 />
                 <figcaption className="absolute bottom-0 px-14 py-7 w-full text-3xl font-bold text-white backdrop-blur-[33.5px] bg-zinc-950 bg-opacity-50 h-[154px] rounded-[50px] max-md:px-8 max-md:text-2xl max-sm:px-5 max-sm:text-xl">
-                    Through partnerships with prestigious regional laboratories, Arista Gold provides authenticity and purity verification for all precious metals.
+                    Through partnerships with prestigious regional laboratories, Arista provides authenticity and purity verification for all precious metals.
                 </figcaption>
             </figure>
         </section>

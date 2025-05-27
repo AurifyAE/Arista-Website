@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
 
       <p className="text-md leading-7 text-center text-[#B39844]">
-        Arista gold 2025. All rights are reserved.
+        Arista 2025. All rights are reserved.
       </p>
     </footer>
   );

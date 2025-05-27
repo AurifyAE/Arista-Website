@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-1.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,10 +30,10 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50">
       {/* Company Logo Section */}
-      <div className="bg-black p-3 md:p-4">
+      <div className="bg-black p-3 md:p-1">
         <div className="flex justify-center">
           <a href="/" aria-label="Go to Homepage">
-            <img src={logo} alt="Company Logo" className="h-16 md:h-20 lg:h-24" />
+            <img src={logo} alt="Company Logo" className="h-20 md:h-28 lg:h-36" />
           </a>
         </div>
       </div>
